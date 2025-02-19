@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <header>
+      <title>Sign Up</title>
+      <style>
+        .body {
+          font-family: Arial, sans-serif;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          background-color: #f8f8f8;
+        }
+        .container {
+          background: #fff;
+          padding: 20px;
+          border-radius: 8px;
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+          width: 400px;
+          text-align: center;
+        }
+        h2 {
+          margin-bottom: 20px;
+          text-align: center;
+        }
+        input {
+          width: 100%;
+          padding: 10px;
+          margin: 5px 0;
+          border: 1px solid #ccc;
+          border-radius: 5px;
+          font-size: 16px;
+        }
+        .name-section {
+          display: flex;
+          gap: 10px;
+        }
+        .name-section input {
+          width: 50%;
+        }
+        .password-section {
+          display: flex;
+          gap: 10px;
+        }
+        .password input {
+          width: 50%;
+        }
+        .checkbox-section {
+          display: flex;
+          align-items: center;
+          margin-top: 10px;
+        }
+        .checkbox-section input {
+          width: auto;
+          margin-right: 10px;
+        }
+        .buttons {
+          margin-top: 15px;
+        }
+        .buttons button {
+          width: 48%;
+          padding: 10px;
+          border: none;
+          border-radius: 5px;
+          font-size: 16px;
+          cursor: pointer;
+        }
+        .register {
+          background-color: #4c80f1;
+          color: white;
+        }
+        .sign-in {
+          background-color: #4caf50;
+          color: white;
+        }
+        .terms {
+          font-size: 14px;
+          margin-top: 5px;
+        }
+        .terms a {
+          color: blue;
+          text-decoration: none;
+        }
+      </style>
+    </header>
+    <div class="container">
+      <h2>Sign Up</h2>
+      <nav class="name-section">
+        <input type="text" placeholder="First Name" />
+        <input type="text" placeholder="Last Name" />
+      </nav>
+      <input type="text" placeholder="Mobile No." /><br />
+      <input type="text" placeholder="Email Address" />
+      <nav class="password-section">
+        <input type="text" placeholder="Password" />
+        <input type="text" placeholder="Confirm Password" />
+      </nav>
+
+      <nav class="checkbox-section">
+        <input type="checkbox" id="agree" />
+        <label for="agree"><strong>I Agree</strong></label>
+      </nav>
+
+      <p class="terms">
+        By clicking
+        <span
+          style="
+            color: blue;
+            background-color: lightgray;
+            padding: 2px 5px;
+            border-radius: 3px;
+          "
+          >Register </span
+        >, you agree to the <a href="#">Terms and Conditions</a> set out by this
+        site, including our Cookie Use.
+      </p>
+
+      <nav class="buttons">
+        <button class="register">Register</button>
+        <button class="sign-in">Sign In</button>
+      </nav>
+    </div>
+  </body>
+</html>
